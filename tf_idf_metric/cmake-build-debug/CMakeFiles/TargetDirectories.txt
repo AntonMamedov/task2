@@ -1,0 +1,3 @@
+/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir

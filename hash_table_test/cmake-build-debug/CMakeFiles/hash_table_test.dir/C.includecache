@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anton/dev/techno_park/cpp/task2/hash_table_test/main.c
+stdio.h
+-
+stdint.h
+-
+string.h
+-
+
