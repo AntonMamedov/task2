@@ -16,7 +16,8 @@ typedef struct{
     uint8_t extend_index;
 }HashTableMetaData;
 
-uint32_t table_sizes[TABLE_SIZES_SIZE] = {15013, 30011, 60013, 120011, 240007 };
+uint32_t table_sizes[TABLE_SIZES_SIZE] = {11, 13, 17, 19, 23};
+        // {15013, 30011, 60013, 120011, 240007 };
 
 //Алгоритм хеширования RS(Роберта Седжвика)
 uint32_t RShash(const char* str) {
@@ -44,7 +45,7 @@ uint32_t RShash(const char* str) {
 //
 //    return (hash & 0x7FFFFFFF);
 //}
-int ht_insert(char* key,HashTableNode* table, HashTableMetaData* meta_data){
+int ht_insert(const char* key,HashTableNode* table, HashTableMetaData* meta_data){
     meta_data->true_table_size+= 1;
     if (meta_data->true_table_size == meta_data->table_size)
         return -1;
@@ -88,23 +89,23 @@ int ht_extend(HashTableNode* table, HashTableMetaData* meta_data){
     }
 }
 
-int ht_update(char* key, HashTableNode* table, HashTableMetaData* meta_data){
-    if (meta_data == NULL)
+int ht_update(char* key, HashTableNode** hash_table, HashTableMetaData* meta_data){
+    if (meta_data == NULL || hash_table == NULL)
         return -1;
     else {
-        if (table == NULL) {
-            table = (HashTableNode*)malloc(sizeof(HashTableNode) * table_sizes[0]);
-            meta_data->table_size == table_sizes[0];
+        if (*hash_table == NULL) {
+            *hash_table = (HashTableNode*)malloc(sizeof(HashTableNode) * table_sizes[0]);
+            meta_data->table_size = table_sizes[0];
             meta_data->extend_index = 0;
             meta_data->true_table_size = 0;
-            return ht_insert(key, table, meta_data);
+            return ht_insert(key, *hash_table, meta_data);
         }
         else {
             if ((double) meta_data->table_size / (double) meta_data->table_size < 1.4) {
-                if (ht_extend(table, meta_data) == -1)
+                if (ht_extend(*hash_table, meta_data) == -1)
                     return -1;
             }
-            return ht_insert(key, table, meta_data);
+            return ht_insert(key, *hash_table, meta_data);
         }
     }
 
@@ -112,9 +113,39 @@ int ht_update(char* key, HashTableNode* table, HashTableMetaData* meta_data){
 
 
 int main() {
-    uint32_t a = 15;
-    uint32_t b = 10;
-    printf("%f", (double)a / (double)b);
+    char* a1 = "111";
+    char* a2 = "abc";
+    char* a3 = "dfg";
+    char* a4 = "123fa";
+    char* a5 = "gsnajk";
+    char* a6 = "sa12da";
+    char* a7 = "qwerty";
+    char* a8 = "123";
+    char* a9 = "ghjk";
+    char* a10 = "12";
+    HashTableNode* table = NULL;
+    HashTableMetaData meta_data;
+    int index = ht_update(a1, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a2, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a3, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a4, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a5, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a6, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a7, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a8, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a9, &table, & meta_data);
+    printf("%d\n", index);
+    index = ht_update(a10, &table, & meta_data);
+    printf("%d\n", index);
+
     return 0;
 }
 //446371745
