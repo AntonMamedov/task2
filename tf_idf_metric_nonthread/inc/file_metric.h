@@ -1,23 +1,15 @@
 #pragma once
 #include <stdlib.h>
 
-#include "str_mab.h"
-
-//Данная структура содержит информацию о каждом слове в файле
-//Поле word - указатель на поле данных в ноде дерева подсчета частоты встречаемости слова во всех файлах
-//Так как tf-igf нельзя посчитать сразу, такое решение позволяет не производить поиск в дереве при высчитывании метрики
-// а сразу из поя val брать частоту встречаемости во всех документах
-//поля tf и tf_idf - это соответственно значения tf и tf-idf конкретного слова
-typedef struct {
-    StrMapData* word;
-    double tf;
-    double tf_idf;
-}WordTf_idf;
+#include "str_map.h"
+#include "tf_idf_priority_queue.h"
+#include "tf_idf_data.h"
 
 //Структура содержащая имя файла и массив слов,встреченных в данном файле, а так же их метрик
 typedef struct{
     char* file_name;
     WordTf_idf* word_list;
+    Tf_IdfPriorityQueue idf_queue;
     size_t word_list_size;
 }FileWordData;
 

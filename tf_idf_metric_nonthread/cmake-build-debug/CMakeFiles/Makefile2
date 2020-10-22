@@ -94,12 +94,12 @@ clean: CMakeFiles/tf_idf_metric_nonthread.dir/clean
 CMakeFiles/tf_idf_metric_nonthread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target tf_idf_metric_nonthread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target tf_idf_metric_nonthread"
 .PHONY : CMakeFiles/tf_idf_metric_nonthread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf_idf_metric_nonthread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tf_idf_metric_nonthread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/tf_idf_metric_nonthread.dir/rule

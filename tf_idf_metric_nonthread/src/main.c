@@ -3,7 +3,7 @@
 #include <dirent.h>
 
 #include "vec.h"
-#include "str_mab.h"
+#include "str_map.h"
 #include "file_metric.h"
 #include "user_info_macro.h"
 
@@ -44,17 +44,11 @@ int main(int argc, char** argv) {
             }
             for (size_t i = 0; i < file_info_vec.size; i++) {
                 FileWordData *file_data = vec_get(i, &file_info_vec);
+                pq_init(&file_data->idf_queue, file_data->word_list_size);
                 for (size_t j = 0; j < file_data->word_list_size; j++) {
-                    file_data->word_list[j].tf_idf =
-                            file_data->word_list[j].tf *
-                            log10((double) file_info_vec.size / (double) file_data->word_list[j].word->val);
-                }
-            }
-            for (size_t i = 0; i < file_info_vec.size; i++) {
-                FileWordData *file_data = vec_get(i, &file_info_vec);
-                for (size_t j = 0; j < file_data->word_list_size; j++) {
-                    qsort(file_data->word_list, file_data->word_list_size - 1,
-                          sizeof(WordTf_idf), word_tf_idf_comparator);
+                    double tf_idf = file_data->word_list[j].tf *
+                                    log10((double) file_info_vec.size / (double) file_data->word_list[j].word->val);
+                    pq_push(tf_idf, j, &file_data->idf_queue);
                 }
             }
             if (error_vector.size > 0){
@@ -66,8 +60,11 @@ int main(int argc, char** argv) {
                 FileWordData *file_data = vec_get(i, &file_info_vec);
                 printf("%s\n", file_data->file_name);
                 for (size_t j = 0; j < NUMBER_OF_TOP_WORDS; j++) {
-                    if (j < file_data->word_list_size)
-                        printf("  %s\n", str_get(&file_data->word_list[j].word->key));
+                    if (j < file_data->word_list_size) {
+                        Tf_Idf tf_idf;
+                        uint64_t index = pq_pop(&file_data->idf_queue, &tf_idf);
+                        printf("  %s\n", str_get(&file_data->word_list[index].word->key));
+                    }
                 }
             }
             map_release(&global_word_map);

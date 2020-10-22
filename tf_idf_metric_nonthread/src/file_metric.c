@@ -1,8 +1,8 @@
-#include "file_metric.h"
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+
+#include "file_metric.h"
 
 #define  MAX_WORD_LENGTH 256
 #define  MAX_FILE_PATH_LENGTH 1024
@@ -36,6 +36,7 @@ void file_word_data_init(FileWordData* data, char *filename, WordTf_idf *word_li
     data->file_name = strdup(filename);
     data->word_list = word_list;
     data->word_list_size = word_list_size;
+    pq_init(&data->idf_queue, 0);
 }
 
 int get_file_metric(char* work_dir_name, FileWordData* data, StrMap* global_str_map){
@@ -106,13 +107,10 @@ void word_list_filling(StrMapData* data, WordListFillingData* work_data){
     work_data->word_list_index+= 1;
 }
 
-int word_tf_idf_comparator(WordTf_idf *left, WordTf_idf *right) {
-    return left->tf_idf < right->tf_idf;
-}
-
 void file_word_data_release(FileWordData* elem) {
     free(elem->word_list);
     free(elem->file_name);
+    pq_release(&elem->idf_queue);
     elem->word_list_size = 0;
 }
 

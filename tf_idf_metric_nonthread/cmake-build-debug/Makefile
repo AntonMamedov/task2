@@ -251,6 +251,33 @@ src/str_map.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/src/str_map.c.s
 .PHONY : src/str_map.c.s
 
+src/tf_idf_priority_queue.o: src/tf_idf_priority_queue.c.o
+
+.PHONY : src/tf_idf_priority_queue.o
+
+# target to build an object file
+src/tf_idf_priority_queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/src/tf_idf_priority_queue.c.o
+.PHONY : src/tf_idf_priority_queue.c.o
+
+src/tf_idf_priority_queue.i: src/tf_idf_priority_queue.c.i
+
+.PHONY : src/tf_idf_priority_queue.i
+
+# target to preprocess a source file
+src/tf_idf_priority_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/src/tf_idf_priority_queue.c.i
+.PHONY : src/tf_idf_priority_queue.c.i
+
+src/tf_idf_priority_queue.s: src/tf_idf_priority_queue.c.s
+
+.PHONY : src/tf_idf_priority_queue.s
+
+# target to generate assembly for a file
+src/tf_idf_priority_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric_nonthread.dir/build.make CMakeFiles/tf_idf_metric_nonthread.dir/src/tf_idf_priority_queue.c.s
+.PHONY : src/tf_idf_priority_queue.c.s
+
 src/vec.o: src/vec.c.o
 
 .PHONY : src/vec.o
@@ -299,6 +326,9 @@ help:
 	@echo "... src/str_map.o"
 	@echo "... src/str_map.i"
 	@echo "... src/str_map.s"
+	@echo "... src/tf_idf_priority_queue.o"
+	@echo "... src/tf_idf_priority_queue.i"
+	@echo "... src/tf_idf_priority_queue.s"
 	@echo "... src/vec.o"
 	@echo "... src/vec.i"
 	@echo "... src/vec.s"

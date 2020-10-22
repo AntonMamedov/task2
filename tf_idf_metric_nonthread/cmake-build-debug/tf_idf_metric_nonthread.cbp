@@ -84,7 +84,13 @@
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/str.h">
 			<Option target="tf_idf_metric_nonthread"/>
 		</Unit>
-		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/str_mab.h">
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/str_map.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/tf_idf_data.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/tf_idf_priority_queue.h">
 			<Option target="tf_idf_metric_nonthread"/>
 		</Unit>
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/user_info_macro.h">
@@ -103,6 +109,9 @@
 			<Option target="tf_idf_metric_nonthread"/>
 		</Unit>
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/str_map.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/tf_idf_priority_queue.c">
 			<Option target="tf_idf_metric_nonthread"/>
 		</Unit>
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/vec.c">

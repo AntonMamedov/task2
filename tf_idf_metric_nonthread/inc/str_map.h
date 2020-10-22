@@ -1,6 +1,7 @@
 #pragma once
-#include "str.h"
 #include <stdint.h>
+
+#include "str.h"
 
 //Макросы - индикаторы
 #define INSERTED 0 //Элемент был вставлен

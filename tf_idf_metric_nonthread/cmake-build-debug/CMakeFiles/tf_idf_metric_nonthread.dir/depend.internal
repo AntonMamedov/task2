@@ -4,12 +4,16 @@
 CMakeFiles/tf_idf_metric_nonthread.dir/src/file_metric.c.o
  ../inc/file_metric.h
  ../inc/str.h
- ../inc/str_mab.h
+ ../inc/str_map.h
+ ../inc/tf_idf_data.h
+ ../inc/tf_idf_priority_queue.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/file_metric.c
 CMakeFiles/tf_idf_metric_nonthread.dir/src/main.c.o
  ../inc/file_metric.h
  ../inc/str.h
- ../inc/str_mab.h
+ ../inc/str_map.h
+ ../inc/tf_idf_data.h
+ ../inc/tf_idf_priority_queue.h
  ../inc/user_info_macro.h
  ../inc/vec.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/main.c
@@ -18,8 +22,14 @@ CMakeFiles/tf_idf_metric_nonthread.dir/src/str.c.o
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/str.c
 CMakeFiles/tf_idf_metric_nonthread.dir/src/str_map.c.o
  ../inc/str.h
- ../inc/str_mab.h
+ ../inc/str_map.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/str_map.c
+CMakeFiles/tf_idf_metric_nonthread.dir/src/tf_idf_priority_queue.c.o
+ ../inc/str.h
+ ../inc/str_map.h
+ ../inc/tf_idf_data.h
+ ../inc/tf_idf_priority_queue.h
+ /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/tf_idf_priority_queue.c
 CMakeFiles/tf_idf_metric_nonthread.dir/src/vec.c.o
  ../inc/vec.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/vec.c
