@@ -4,6 +4,7 @@
 CMakeFiles/tf_idf_metric.dir/src/main.c.o
  ../inc/str.h
  ../inc/str_map.h
+ ../inc/tf_idf_metric.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/main.c
 CMakeFiles/tf_idf_metric.dir/src/str.c.o
  ../inc/str.h
@@ -12,5 +13,8 @@ CMakeFiles/tf_idf_metric.dir/src/str_map.c.o
  ../inc/str.h
  ../inc/str_map.h
  /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str_map.c
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o
- /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o
+ ../inc/str.h
+ ../inc/str_map.h
+ ../inc/tf_idf_metric.h
+ /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c

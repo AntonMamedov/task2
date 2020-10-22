@@ -224,32 +224,32 @@ src/str_map.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/str_map.c.s
 .PHONY : src/str_map.c.s
 
-src/word_tf_wector.o: src/word_tf_wector.c.o
+src/tf_idf_metric.o: src/tf_idf_metric.c.o
 
-.PHONY : src/word_tf_wector.o
+.PHONY : src/tf_idf_metric.o
 
 # target to build an object file
-src/word_tf_wector.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o
-.PHONY : src/word_tf_wector.c.o
+src/tf_idf_metric.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o
+.PHONY : src/tf_idf_metric.c.o
 
-src/word_tf_wector.i: src/word_tf_wector.c.i
+src/tf_idf_metric.i: src/tf_idf_metric.c.i
 
-.PHONY : src/word_tf_wector.i
+.PHONY : src/tf_idf_metric.i
 
 # target to preprocess a source file
-src/word_tf_wector.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.i
-.PHONY : src/word_tf_wector.c.i
+src/tf_idf_metric.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.i
+.PHONY : src/tf_idf_metric.c.i
 
-src/word_tf_wector.s: src/word_tf_wector.c.s
+src/tf_idf_metric.s: src/tf_idf_metric.c.s
 
-.PHONY : src/word_tf_wector.s
+.PHONY : src/tf_idf_metric.s
 
 # target to generate assembly for a file
-src/word_tf_wector.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.s
-.PHONY : src/word_tf_wector.c.s
+src/tf_idf_metric.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf_idf_metric.dir/build.make CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.s
+.PHONY : src/tf_idf_metric.c.s
 
 # Help Target
 help:
@@ -269,9 +269,9 @@ help:
 	@echo "... src/str_map.o"
 	@echo "... src/str_map.i"
 	@echo "... src/str_map.s"
-	@echo "... src/word_tf_wector.o"
-	@echo "... src/word_tf_wector.i"
-	@echo "... src/word_tf_wector.s"
+	@echo "... src/tf_idf_metric.o"
+	@echo "... src/tf_idf_metric.i"
+	@echo "... src/tf_idf_metric.s"
 .PHONY : help
 
 

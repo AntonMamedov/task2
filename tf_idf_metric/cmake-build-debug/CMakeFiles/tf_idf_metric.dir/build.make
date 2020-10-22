@@ -103,22 +103,9 @@ CMakeFiles/tf_idf_metric.dir/src/str_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tf_idf_metric.dir/src/str_map.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str_map.c -o CMakeFiles/tf_idf_metric.dir/src/str_map.c.s
 
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o: CMakeFiles/tf_idf_metric.dir/flags.make
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o: ../src/word_tf_wector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o   -c /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c
-
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c > CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.i
-
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c -o CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.s
-
 CMakeFiles/tf_idf_metric.dir/src/str.c.o: CMakeFiles/tf_idf_metric.dir/flags.make
 CMakeFiles/tf_idf_metric.dir/src/str.c.o: ../src/str.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tf_idf_metric.dir/src/str.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tf_idf_metric.dir/src/str.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tf_idf_metric.dir/src/str.c.o   -c /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str.c
 
 CMakeFiles/tf_idf_metric.dir/src/str.c.i: cmake_force
@@ -129,20 +116,33 @@ CMakeFiles/tf_idf_metric.dir/src/str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tf_idf_metric.dir/src/str.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str.c -o CMakeFiles/tf_idf_metric.dir/src/str.c.s
 
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: CMakeFiles/tf_idf_metric.dir/flags.make
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: ../src/tf_idf_metric.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o   -c /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c
+
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c > CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.i
+
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c -o CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.s
+
 # Object files for target tf_idf_metric
 tf_idf_metric_OBJECTS = \
 "CMakeFiles/tf_idf_metric.dir/src/main.c.o" \
 "CMakeFiles/tf_idf_metric.dir/src/str_map.c.o" \
-"CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o" \
-"CMakeFiles/tf_idf_metric.dir/src/str.c.o"
+"CMakeFiles/tf_idf_metric.dir/src/str.c.o" \
+"CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o"
 
 # External object files for target tf_idf_metric
 tf_idf_metric_EXTERNAL_OBJECTS =
 
 tf_idf_metric: CMakeFiles/tf_idf_metric.dir/src/main.c.o
 tf_idf_metric: CMakeFiles/tf_idf_metric.dir/src/str_map.c.o
-tf_idf_metric: CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o
 tf_idf_metric: CMakeFiles/tf_idf_metric.dir/src/str.c.o
+tf_idf_metric: CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o
 tf_idf_metric: CMakeFiles/tf_idf_metric.dir/build.make
 tf_idf_metric: CMakeFiles/tf_idf_metric.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable tf_idf_metric"

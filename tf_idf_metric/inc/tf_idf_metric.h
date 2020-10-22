@@ -1,14 +1,16 @@
+#pragma once
+#include "str_map.h"
 
-#ifndef TF_IDF_METRIC_TF_IDF_METRIC_H
-#define TF_IDF_METRIC_TF_IDF_METRIC_H
+typedef struct {
+    char* word;
+    double tf;
+}WordTf;
 
-#endif //TF_IDF_METRIC_TF_IDF_METRIC_H
-
-#include <word_tf_wector.h>
-
-typedef struct FileWordData{
+typedef struct{
     char* file_name;
-    WordTfVector word_list;
+    WordTf* word_list;
+    size_t word_list_size;
 }FileWordData;
 
-void get_file_metric(char* file_name, FileWordData* data, word)
+void file_word_data_init(FileWordData* data, char* filename, WordTf* word_list, size_t word_list_size);
+int get_file_metric(FileWordData* data, char* work_dir_name, StrMapNode** global_word_tree);

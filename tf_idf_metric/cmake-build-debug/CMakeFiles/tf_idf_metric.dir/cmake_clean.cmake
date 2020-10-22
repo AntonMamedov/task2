@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tf_idf_metric.dir/src/main.c.o"
   "CMakeFiles/tf_idf_metric.dir/src/str.c.o"
   "CMakeFiles/tf_idf_metric.dir/src/str_map.c.o"
-  "CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o"
+  "CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o"
   "tf_idf_metric"
   "tf_idf_metric.pdb"
 )

@@ -87,9 +87,6 @@
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/inc/tf_idf_metric.h">
 			<Option target="tf_idf_metric"/>
 		</Unit>
-		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/inc/word_tf_wector.h">
-			<Option target="tf_idf_metric"/>
-		</Unit>
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/main.c">
 			<Option target="tf_idf_metric"/>
 		</Unit>
@@ -99,7 +96,7 @@
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str_map.c">
 			<Option target="tf_idf_metric"/>
 		</Unit>
-		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c">
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c">
 			<Option target="tf_idf_metric"/>
 		</Unit>
 		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/CMakeLists.txt">

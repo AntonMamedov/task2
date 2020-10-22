@@ -1,6 +1,4 @@
 #include "str_map.h"
-
-#include <stdlib.h>
 #include <string.h>
 
 static StrMapNode* map_init(StrMapNode* elem, char* key){
@@ -10,7 +8,45 @@ static StrMapNode* map_init(StrMapNode* elem, char* key){
     elem->data = 0;
 }
 
-u_int32_t* map_update(StrMapNode **root, char* key) {
+//StrMapNode* map_update(StrMapNode **root, char* key) {
+//    if (key == NULL)
+//        return NULL;
+//    else {
+//        if (strcmp(key, "chrysolites") == 0) {
+//            int a = 0;
+//        }
+//        if (*root == NULL) {
+//            *root = (StrMapNode *)malloc(sizeof(StrMapNode));
+//            *root = map_init(*root, key);
+//            StrMapNode *current_elem = *root;
+//            return current_elem;
+//        } else {
+//            StrMapNode *current_elem = *root;
+//            int cmp = strcmp(str_get(&current_elem->key), key);
+//            if (cmp > 0) {
+//                if (current_elem->right == NULL) {
+//                    current_elem->right = (StrMapNode*) malloc(sizeof(StrMapNode));
+//                    current_elem->right = map_init(current_elem->right, key);
+//                    return current_elem;
+//                } else
+//                    return map_update(&current_elem->right, key);
+//            } else if (cmp < 0) {
+//                if (current_elem->left == NULL) {
+//                    current_elem->left = (StrMapNode *) malloc(sizeof(StrMapNode));
+//                    current_elem->left = map_init(current_elem->left, key);
+//                    return current_elem;
+//                } else {
+//                    return map_update(&current_elem->left, key);
+//                }
+//            } else {
+//                return current_elem;
+//            }
+//        }
+//    }
+//}
+
+//
+uint32_t* map_update(StrMapNode **root, char* key) {
     if (key == NULL)
         return NULL;
     else {
@@ -42,25 +78,6 @@ u_int32_t* map_update(StrMapNode **root, char* key) {
     }
 }
 
-//u_int32_t* map_search(StrMapNode **root, char *key) {
-//    if (key == NULL)
-//        return NULL;
-//    else{
-//        if (*root == NULL)
-//            return NULL;
-//        else{
-//            StrMapNode* current_elem = *root;
-//            char* test = str_get(&current_elem->key);
-//            int cmp = strcmp(str_get(&current_elem->key), key);
-//            if (cmp > 0)
-//                return map_search(&current_elem->right, key);
-//            else if (cmp < 0)
-//                return map_search(&current_elem->left, key);
-//            else
-//                return &current_elem->data;
-//        }
-//    }
-//}
 
 void map_release(StrMapNode **root) {
     StrMapNode* current_elem = *root;

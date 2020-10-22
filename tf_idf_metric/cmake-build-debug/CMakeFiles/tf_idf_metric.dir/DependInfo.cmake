@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/main.c" "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir/src/main.c.o"
   "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str.c" "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir/src/str.c.o"
   "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str_map.c" "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir/src/str_map.c.o"
-  "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/word_tf_wector.c" "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o"
+  "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c" "/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/cmake-build-debug/CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

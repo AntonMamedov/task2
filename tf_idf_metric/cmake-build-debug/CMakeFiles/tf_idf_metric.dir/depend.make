@@ -3,6 +3,7 @@
 
 CMakeFiles/tf_idf_metric.dir/src/main.c.o: ../inc/str.h
 CMakeFiles/tf_idf_metric.dir/src/main.c.o: ../inc/str_map.h
+CMakeFiles/tf_idf_metric.dir/src/main.c.o: ../inc/tf_idf_metric.h
 CMakeFiles/tf_idf_metric.dir/src/main.c.o: ../src/main.c
 
 CMakeFiles/tf_idf_metric.dir/src/str.c.o: ../inc/str.h
@@ -12,5 +13,8 @@ CMakeFiles/tf_idf_metric.dir/src/str_map.c.o: ../inc/str.h
 CMakeFiles/tf_idf_metric.dir/src/str_map.c.o: ../inc/str_map.h
 CMakeFiles/tf_idf_metric.dir/src/str_map.c.o: ../src/str_map.c
 
-CMakeFiles/tf_idf_metric.dir/src/word_tf_wector.c.o: ../src/word_tf_wector.c
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: ../inc/str.h
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: ../inc/str_map.h
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: ../inc/tf_idf_metric.h
+CMakeFiles/tf_idf_metric.dir/src/tf_idf_metric.c.o: ../src/tf_idf_metric.c
 

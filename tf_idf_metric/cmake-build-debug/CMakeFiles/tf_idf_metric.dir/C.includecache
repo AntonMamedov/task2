@@ -13,18 +13,24 @@ stdlib.h
 ../inc/str_map.h
 stdlib.h
 -
+stdint.h
+-
 str.h
 ../inc/str.h
 
-/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/main.c
+../inc/tf_idf_metric.h
+str_map.h
+../inc/str_map.h
+
+/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.c
+tf_idf_metric.h
+/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/tf_idf_metric.h
+stdlib.h
+-
 stdio.h
 -
 string.h
 -
-stdlib.h
--
 ctype.h
 -
-str_map.h
-/home/anton/dev/techno_park/cpp/task2/tf_idf_metric/src/str_map.h
 

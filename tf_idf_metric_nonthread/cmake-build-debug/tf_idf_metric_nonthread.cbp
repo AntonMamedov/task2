@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tf_idf_metric_nonthread"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_idf_metric_nonthread">
+				<Option output="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/tf_idf_metric_nonthread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tf_idf_metric_nonthread"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_idf_metric_nonthread/fast">
+				<Option output="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/tf_idf_metric_nonthread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tf_idf_metric_nonthread/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/file_metric.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/str.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/str_mab.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/user_info_macro.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/inc/vec.h">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/file_metric.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/main.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/str.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/str_map.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/src/vec.c">
+			<Option target="tf_idf_metric_nonthread"/>
+		</Unit>
+		<Unit filename="/home/anton/dev/techno_park/cpp/task2/tf_idf_metric_nonthread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

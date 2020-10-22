@@ -1,7 +1,4 @@
-#ifndef TF_IDF_METRIC_STR_H
-#define TF_IDF_METRIC_STR_H
-
-#endif //TF_IDF_METRIC_STR_H
+#pragma once
 #define STATIC_STR_DEFAULT_LENGTH 15
 #include <stdlib.h>
 
