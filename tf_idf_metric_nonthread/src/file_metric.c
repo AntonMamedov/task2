@@ -109,3 +109,14 @@ void word_list_filling(StrMapData* data, WordListFillingData* work_data){
 int word_tf_idf_comparator(WordTf_idf *left, WordTf_idf *right) {
     return left->tf_idf < right->tf_idf;
 }
+
+void file_word_data_release(FileWordData* elem) {
+    free(elem->word_list);
+    free(elem->file_name);
+    elem->word_list_size = 0;
+}
+
+void file_word_data_releaser(FileWordData *elem) {
+    file_word_data_release(elem);
+    free(elem);
+}

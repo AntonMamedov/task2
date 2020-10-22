@@ -29,3 +29,5 @@ void file_word_data_init(FileWordData* data, char* filename, WordTf_idf* word_li
 //Третий аргумент - указатель на дерева, в котом происходит расчет частоты встречаемости слова во всех файлах диреткории
 int get_file_metric(char* work_dir_name, FileWordData* data, StrMap* global_str_map);
 int word_tf_idf_comparator(WordTf_idf* left, WordTf_idf* right);
+void file_word_data_release(FileWordData* elem);
+void file_word_data_releaser(FileWordData* elem);

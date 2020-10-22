@@ -73,7 +73,7 @@ int main(int argc, char** argv) {
             map_release(&global_word_map);
             vec_release(NULL, &error_vector);
         }
-        vec_release(free, &file_info_vec);
+        vec_release(file_word_data_releaser, &file_info_vec);
     }
     else{
 
